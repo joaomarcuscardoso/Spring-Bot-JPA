@@ -1,4 +1,4 @@
 @host = http://localhost:8080
-GET {{host}}/categories/3
+GET {{host}}/orders/1
 content-type: application/json
 
