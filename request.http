@@ -1,6 +1,6 @@
 @host = http://localhost:8080
 # GET
-# GET {{host}}/users/1
+GET {{host}}/users/7
 
 # INSERT
 # POST {{host}}/users 
