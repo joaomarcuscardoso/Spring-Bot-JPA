@@ -1,6 +1,8 @@
 @host = http://localhost:8080
-GET {{host}}/users/
+# GET
+# GET {{host}}/users/1
 
+# INSERT
 # POST {{host}}/users 
 # content-type: application/json
 
@@ -11,5 +13,15 @@ GET {{host}}/users/
 #     "password": "123456"
 # }
 
-
+#  DELETE
 # DELETE {{host}}/users/3
+
+# UPDATE
+# PUT {{host}}/users/1
+# content-type: application/json
+
+# { 
+#     "name": "Bob Brown",
+#     "email": "bob@gmail.com",
+#     "phone" : "97755755"
+# }
