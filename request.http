@@ -1,12 +1,15 @@
 @host = http://localhost:8080
-# GET {{host}}/orders/1
+GET {{host}}/users/
 
-POST {{host}}/users 
-content-type: application/json
+# POST {{host}}/users 
+# content-type: application/json
 
-{ 
-    "name": "Bob Brown",
-    "email": "bob@gmail.com",
-    "phone" : "97755755",
-    "password": "123456"
-}
+# { 
+#     "name": "Bob Brown",
+#     "email": "bob@gmail.com",
+#     "phone" : "97755755",
+#     "password": "123456"
+# }
+
+
+# DELETE {{host}}/users/3
