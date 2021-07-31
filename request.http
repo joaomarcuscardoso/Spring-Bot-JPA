@@ -17,13 +17,11 @@
 # DELETE {{host}}/users/3
 
 # UPDATE
-# PUT {{host}}/users/1
-# content-type: application/json
+PUT {{host}}/users/7
+content-type: application/json
 
-# { 
-#     "name": "Bob Brown",
-#     "email": "bob@gmail.com",
-#     "phone" : "97755755"
-# }
-
-DELETE {{host}}/users/1
+{ 
+    "name": "Bob Brown",
+    "email": "bob@gmail.com",
+    "phone" : "97755755"
+}
